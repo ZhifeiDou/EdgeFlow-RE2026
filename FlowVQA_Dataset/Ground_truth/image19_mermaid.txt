@@ -1,0 +1,16 @@
+flowchart TD
+    A(["Start"]) --> B["Lay a square napkin flat on a clean work surface"]
+    B --> C["Iron the napkin if required for crisper folds"]
+    C --> D["Fold right-hand corner to meet the opposite upper left corner"]
+    D --> E["Turn the triangle so the longest side is parallel to the table's edge"]
+    E --> F["Fold the left corner in, slightly past the midpoint of the long side"]
+    F --> G["Repeat the same fold for the right-hand corner"]
+    G --> H["Bring the lower left corner to the bottom midpoint and press down"]
+    H --> I["Repeat the same fold for the right side and press down"]
+    I --> J["Bring both bottom corners up to rest just below the top right corners"]
+    J --> K["Take the top point of the envelope flap and bring it down"]
+    K --> L[/"Place a personalized letter or card inside each napkin envelope"/]
+    L --> M{"Is there a need for more insert ideas?"}
+    M -->|"Yes"| N["Consider additional insert ideas like greeting cards, menu, photos, etc."]
+    M -->|"No"| O(["End"])
+    N --> O

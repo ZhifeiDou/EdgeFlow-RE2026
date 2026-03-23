@@ -1,0 +1,9 @@
+flowchart TD
+    A(["Start"]) --> B["Process the initial setup of the function."]
+    B --> C{"Check if 'no_coloring' is True."}
+    C -->|"Yes"| D[/"Output 's' without any coloring"/]
+    D --> E(["End"])
+    C -->|"No"| F["Process the string formatting with color."]
+    F --> G["Create a formatted string with 'color', 's', and 'Colors.RESET'."]
+    G --> H[/"Output the colored formatted string."/]
+    H --> E

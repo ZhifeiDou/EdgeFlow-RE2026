@@ -1,0 +1,18 @@
+flowchart TD
+    A(["Start"]) --> B[/"Strong coffee or espresso, Milk, Sugar, Cream (optional), Popsicle trays or small cups and sticks, Chocolate syrup (for mocha frappuccino)"/]
+    B --> C["Brew double-strength coffee or espresso."]
+    C --> D{"Is 'whip' topping desired?"}
+    D -->|Yes| E["Mix heavy whipping cream with a bit of sugar."]
+    E --> F["Fill the tops of popsicle molds with whip."]
+    F --> G["Freeze the whip in molds."]
+    G --> H
+    D -->|No| H["Combine coffee, milk, sugar, and chocolate syrup for mocha."]
+    H --> I{"Are you using provided sticks?"}
+    I -->|Yes| J["Use the sticks that come with the popsicle mold."]
+    I -->|No| K["Wrap the top of the mold with plastic, make slits, insert sticks."]
+    J --> L
+    K --> L["Pour the coffee mixture into molds over the frozen whip."]
+    L --> M["Freeze until solid."]
+    M --> N[/"Frappuccinos on sticks are fully frozen and ready to enjoy."/]
+    N --> O["Run warm water over the base of the mold to release popsicles."]
+    O --> P(["End"])

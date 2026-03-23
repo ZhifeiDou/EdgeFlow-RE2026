@@ -1,0 +1,26 @@
+flowchart TD
+    A(["Start"]) --> B["Prepare Bread Dough"]
+    B --> C{"Bread Dough Prepared?"}
+    C -->|Yes| D["Color the Dough"]
+    C -->|No| Z1(["End (No Prepared Dough)"])
+    D --> E["Store Colored Dough for Shaping"]
+    E --> F["Shape the Dough"]
+    F --> G["Cover Dough Balls with Damp Towel"]
+    G --> H{"Dough Balls Risen?"}
+    H -->|Yes| I["Make Topping"]
+    H -->|No| Z2(["End (Dough Balls Not Risen)"])
+    I --> J["Combine Yeast, Sugar, Oil, Salt, and Rice Flour"]
+    J --> K["Mix Black Food Coloring with Water and Add to Mixture"]
+    K --> L{"Topping Black and Thick?"}
+    L -->|Yes| M["Cover Topping Mixture and Allow to Sit"]
+    L -->|No| Z3(["End (Topping Not Black and Thick)"])
+    M --> N["Smear Black Topping over Dough Balls"]
+    N --> O{"Topping Applied Generously?"}
+    O -->|Yes| P["Let Dough Balls Stand Uncovered"]
+    O -->|No| Z4(["End (Topping Not Applied Generously)"])
+    P --> Q["Bake Bread in Oven"]
+    Q --> R{"Bread Cooked and Cracked?"}
+    R -->|Yes| S["Cool Bread"]
+    R -->|No| Z5(["End (Bread Not Cooked and Cracked)"])
+    S --> T[/"Finished Brimstone Bread"/]
+    T --> U(["End"])

@@ -1,0 +1,20 @@
+flowchart TD
+    A(["Start"]) --> B[/"Gather materials"/]
+    B --> C["Tape weight to one side of tube"]
+    C --> D["Partially flatten the opposite side of the tube"]
+    D --> E["Place the tube halfway over the edge of a surface"]
+    E --> F[/"Set a small raisin in front of the tube"/]
+    F --> G[/"Place another raisin or peanut butter inside the tube"/]
+    G --> H{"Check for Potential Harm to Mice"}
+    H -->|Yes| I["Add Padding to the Bucket"]
+    H -->|No| J["Position the Bucket without padding"]
+    I --> J["Position the Bucket with padding"]
+    J --> K["Wait for the Mouse"]
+    K --> L{"Has the Mouse Been Caught?"}
+    L -->|Yes| M[/"Captured Mouse"/]
+    L -->|No| K
+    M --> N{"Determine Mouse's Fate"}
+    N -->|Yes| O["Care for the Mouse"]
+    N -->|No| P["Release the Mouse"]
+    O --> Q(["End"])
+    P --> Q

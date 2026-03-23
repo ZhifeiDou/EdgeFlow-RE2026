@@ -1,0 +1,19 @@
+flowchart TD
+    A(["Start"]) --> B[/"Choose a book or electronic device"/]
+    B --> C["Carry the Book or Device"]
+    C --> D["Utilize the Book or Device"]
+    D --> E{"Is someone trying to initiate a conversation?"}
+    E -->|Yes| F["Engage Minimally"]
+    F --> G["Communicate Disinterest"]
+    G --> H["Return to Activity"]
+    H --> E
+    E -->|No| I["Continue using the book or device"]
+    I --> J{"Are you accidentally making eye contact?"}
+    J -->|Yes| K["Avoid further eye contact"]
+    K --> L["Adopt a Closed Body Language"]
+    L --> M["Display Unapproachability"]
+    M --> N["Isolate Yourself"]
+    N --> O["Exit Strategy"]
+    O --> P(["End"])
+    J -->|No| L
+    L --> E

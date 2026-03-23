@@ -1,0 +1,12 @@
+flowchart TD
+    A(["Start"]) --> B[/"Gather Materials (Shoes, Toothpaste, Washcloth, Toothbrush)"/]
+    B --> C["Prepare the Washcloth"]
+    C --> D["Apply Toothpaste"]
+    D --> E["Clean the Shoe"]
+    E --> F{"Check for Stubborn Stains"}
+    F -->|Yes| G["Scrub with Toothbrush"]
+    G --> H["Wipe Off Excess Toothpaste"]
+    F -->|No| H
+    H --> I["Dry the Shoe"]
+    I --> J[/"Shoe is Clean and Renewed"/]
+    J --> K(["End"])

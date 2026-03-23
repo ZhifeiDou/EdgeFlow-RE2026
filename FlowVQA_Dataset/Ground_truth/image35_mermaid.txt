@@ -1,0 +1,20 @@
+flowchart TD
+    A(["Start"]) --> B[/"Gather beach essentials"/]
+    B --> C{"Is the surface flat and non-sandy?"}
+    C -->|Yes| D["Place wash basin"]
+    C -->|No| E["Find suitable location"]
+    E --> C
+    D --> F{"Is there enough water to submerge feet?"}
+    F -->|Yes| G["Fill basin with water"]
+    F -->|No| H[/"Add more water"/]
+    H --> F
+    G --> I[/"Use hands or sponge for sand removal"/]
+    I --> J{"Is there still sand left on feet?"}
+    J -->|Yes| K["Empty and rinse basin"]
+    K --> L[/"Refill basin with clean water"/]
+    L --> I
+    J -->|No| M["Dry feet with clean towel"]
+    M --> N{"Is basin reuse needed?"}
+    N -->|Yes| O["Rinse out basin"]
+    O --> I
+    N -->|No| P(["End"])

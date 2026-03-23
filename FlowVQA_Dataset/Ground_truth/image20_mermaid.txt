@@ -1,0 +1,16 @@
+flowchart TD
+    A(["Start"]) --> B["Prepare for the Special Christmas Dining Event"]
+    B --> C["Decide on Festive Attire"]
+    C --> D["Cabin Door Decoration"]
+    D --> E{"Pack own Christmas tree and decorations?"}
+    E -->|No| F["Leave decorating to cruise ship"]
+    E -->|Yes| G["Consider other decorations"]
+    F --> H["Gift Exchange Considerations"]
+    G --> H
+    H --> I["If exchanging on cruise, pack suitable gifts"]
+    I --> J{"Bring own champagne or wine?"}
+    J -->|Yes| K{"Cruise line allows own alcohol?"}
+    K -->|Yes| L["Pack own bottle of champagne or wine"]
+    K -->|No| M(["End"])
+    J -->|No| M
+    L --> M

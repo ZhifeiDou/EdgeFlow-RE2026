@@ -1,0 +1,30 @@
+flowchart TD
+    A(["Start Boomerang Creation Process"]) -->|Input: Materials| B["Design Selection"]
+    B --> C{"Has own design?"}
+    C -->|Yes| D["Cut out design"]
+    C -->|No| E["Select and print design"]
+    E --> F["Trace design onto card"]
+    F --> D
+    D -->|Output: Cutout| G["Prepare Wing Edges"]
+    G -->|Input: Edge pieces| H["Tape Wing Edges"]
+    H --> I["Complete Boomerang"]
+    I --> J{"Is user left-handed?"}
+    J -->|Yes| K["Mirror-image creation and throwing"]
+    J -->|No| L(["Boomerang Creation Complete"])
+    L --> M(["Start Boomerang Throwing Instructions"])
+    M -->|Input: Weather| N["Check Weather Conditions"]
+    N --> O{"Is it calm or light wind?"}
+    O -->|Yes| P["Positioning and Grip"]
+    O -->|No| Q(["End: Throwing not recommended"])
+    P -->|Input: Boomerang| R["Correct Grip"]
+    R --> S["Throwing Technique"]
+    S --> T["Aiming"]
+    T --> U["Catching"]
+    U --> V{"Returning horizontally?"}
+    V -->|Yes| W["Prepare to catch"]
+    V -->|No| X(["End: Retrieve boomerang"])
+    W --> Y["Boomerang caught"]
+    Y --> Z["Safety Precautions"]
+    Z -->|Output: Safe environment| AA(["Boomerang Throwing Process Complete"])
+    AA --> AB[/"User has created and learned to throw a boomerang"/]
+    AB --> AC(["End: Encouragement to have fun"])

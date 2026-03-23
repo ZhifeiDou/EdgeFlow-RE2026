@@ -1,0 +1,17 @@
+flowchart TD
+    A(["Start"]) --> B{"Decide to clean coffee machine"}
+    B -->|"Yes"| C[/"Gather citric acid and water"/]
+    B -->|"No"| Z(["End"])
+    C --> D["Rinse basket, reservoir, and pot"]
+    D --> E["Fill reservoir with water"]
+    E --> F["Add citric acid to water"]
+    F --> G["Run first brew cycle"]
+    G --> H[/"First brew cycle complete"/]
+    H --> I["Dispose of used solution"]
+    I --> J["Rinse basket and coffee pot"]
+    J --> K["Fill reservoir with clean water"]
+    K --> L["Run second brew cycle"]
+    L --> M{"Is second brew cycle complete?"}
+    M -->|"Yes"| N[/"Coffee machine is clean"/]
+    M -->|"No"| K
+    N --> O(["End"])

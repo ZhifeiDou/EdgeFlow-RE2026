@@ -1,0 +1,41 @@
+flowchart TD
+    A(["Start Creating Bird Feeder"]) --> B[/"Prepare the Plastic Jar"/]
+    B --> C{"Cut holes in jar?"}
+    C -->|"Yes"| D["Evenly space holes"]
+    D --> E{"Bottom holes 1 inch from bottom?"}
+    E -->|"Yes"| F[/"Prepare the PVC Pipe"/]
+    E -->|"No"| C
+
+    F --> G{"Cut PVC pipe at 45 degrees?"}
+    G -->|"Yes"| H["Trim one side of each pipe piece"]
+    H --> I[/"Assemble PVC Pipe and Jar"/]
+    I --> J{"Glue PVC to jar holes?"}
+    J -->|"Yes"| K{"First PVC piece dry?"}
+    K -->|"Yes"| L{"More pieces to glue?"}
+    L -->|"Yes"| J
+    L -->|"No"| M[/"Decorate Frisbee and Jar"/]
+    K -->|"No"| J
+
+    M --> N[/"Prepare Frisbee for Hanging"/]
+    N --> O{"Drill holes for cord?"}
+    O -->|"Yes"| P["Insert and knot cord"]
+    P --> Q[/"Attach Jar Lid to Frisbee"/]
+    Q --> R{"Glue lid to frisbee?"}
+    R -->|"Yes"| S{"Glue cured?"}
+    S -->|"No"| R
+    S -->|"Yes"| T[/"Prepare Dowel Perches"/]
+    
+    T --> U{"Drill holes for dowel?"}
+    U -->|"Yes"| V["Cut dowel 3 inches longer"]
+    V --> W{"Insert dowel into holes?"}
+    W -->|"Yes"| X{"Glue dowel?"}
+    X -->|"Yes"| Y{"Glue cured?"}
+    Y -->|"No"| X
+    Y -->|"Yes"| Z[/"Final Assembly and Filling"/]
+    
+    Z --> AA{"Fill jar with seed?"}
+    AA -->|"Yes"| AB["Screw lid onto jar"]
+    AB --> AC[/"Hang the Bird Feeder"/]
+    AC --> AD{"Hang outside window?"}
+    AD -->|"Yes"| AE(["End - Bird Feeder Complete"])
+    AD -->|"No"| AC

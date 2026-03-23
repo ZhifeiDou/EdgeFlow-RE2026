@@ -1,0 +1,32 @@
+flowchart TD
+    A(["Start Preparation"]) --> B["Preheat oven to 350 F"]
+    B --> C["Line cookie sheets with parchment paper"]
+    C --> D["Whisk together flour, baking soda, baking powder, cinnamon"]
+    D --> E["Cream together butter, sugar, salt, apple cider drink mix"]
+    E --> F["Beat in eggs one at a time"]
+    F --> G["Add vanilla extract"]
+    G --> H["Gradually add dry ingredients"]
+    H --> I{"Is dough too soft?"}
+    I -->|Yes| J["Refrigerate dough for about an hour"]
+    I -->|No| K["Proceed with unwrapping caramels"]
+    J --> K["Unwrap caramels"]
+    K --> L["Scoop out cookie dough balls"]
+    L --> M["Flatten each dough ball"]
+    M --> N["Place a caramel in the center"]
+    N --> O["Seal dough around caramel"]
+    O --> P["Place cookies on sheets, 2 inches apart"]
+    P --> Q["Flatten caramels (optional)"]
+    Q --> R["Bake for 12-14 minutes"]
+    R --> S{"Are cookies over-baked?"}
+    S -->|Yes| T(["Do not over-bake"])
+    S -->|No| U["Slide parchment with cookies to cool"]
+    U --> V{"Are cookies firm but warm?"}
+    V -->|Yes| W["Twist cookies to finish cooling upside down"]
+    V -->|No| X{"Have cookies stuck to parchment?"}
+    X -->|Yes| Y["Freeze cookies to remove"]
+    X -->|No| Z["Allow cookies to finish cooling"]
+    W --> AA["Store in airtight container"]
+    Y --> AA
+    Z --> AA
+    AA --> AB[/"Approximately 4 dozen cookies"/]
+    AB --> AC(["End: EAT THEM ALL!!!!"])

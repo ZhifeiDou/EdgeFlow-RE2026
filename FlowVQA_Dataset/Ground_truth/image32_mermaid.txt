@@ -1,0 +1,31 @@
+flowchart TD
+    A(["Start"]) --> B["Assess Mutual Unhappiness"]
+    B -->|Input: Happiness Levels| C{"Both Parties Unhappy?"}
+    C -->|"Yes"| D["Consider Mutual Termination Agreement"]
+    C -->|"No"| Z(["End"])
+    D --> E[/"Agreement to Rescind"/]
+    E --> F["Review Contract Terms"]
+    F -->|Input: Employment Contract| G[/"Notice Period and Vacation Time"/]
+    G --> H{"Notice Required?"}
+    H -->|"Yes"| I["Determine Notice Period"]
+    H -->|"No"| J["Negotiate Termination without Notice"]
+    I -->|Input: Notice Requirement| K[/"Determined Notice Period"/]
+    K --> L{"Accrued Vacation Time?"}
+    L -->|"Yes"| M["Calculate Accrued Vacation Time"]
+    L -->|"No"| N["Plan Notice Delivery"]
+    M -->|Input: Vacation Time| O["Adjust Notice Period"]
+    O -->|Output: Adjusted Notice Period| N
+    N -->|Output: Notice Delivery Plan| P{"Employer Eager to End Contract?"}
+    P -->|"Yes"| Q["Finalize Mutual Termination Agreement"]
+    P -->|"No"| R["Negotiate Exit Terms"]
+    R -->|Input: Exit Terms| S[/"Negotiated Exit Terms"/]
+    S --> T{"Negotiation Successful?"}
+    T -->|"Yes"| Q
+    T -->|"No"| U["Consider Mediation"]
+    U -->|Input: Mediation Decision| V{"Mediation Required?"}
+    V -->|"Yes"| W["Seek Mediation Services"]
+    V -->|"No"| Q
+    W -->|Input: Mediator Contact Info| X["Obtain Mediator List"]
+    X -->|Output: Arranged Mediation| Q
+    Q -->|Input: Agreed Terms| Y[/"Finalized Termination Agreement"/]
+    Y --> Z

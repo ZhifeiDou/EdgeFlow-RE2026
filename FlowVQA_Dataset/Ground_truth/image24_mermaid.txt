@@ -1,0 +1,21 @@
+flowchart TD
+    A(["Start"]) --> B[/"Leatherworking Tools and Supplies"/]
+    B --> C["Measure and Draft Pattern"]
+    C --> D{"Confident in pattern drafting skills?"}
+    D -->|Yes| E["Cut leather directly"]
+    D -->|No| F["Draft pattern on paper first"]
+    E --> G["Cut Brim and Sideband"]
+    F --> G
+    G --> H[/"Leather Pieces Ready for Assembly"/]
+    H --> I["Assemble the Hat"]
+    I --> J["Install Rivets"]
+    J --> K["Shape the Hat"]
+    K --> L{"Dye Before or After Shaping?"}
+    L -->|Yes| M["Dye before shaping"]
+    L -->|No| N["Shape first, then dye"]
+    M --> O["Shape the Hat"]
+    N --> P["Dye the Hat"]
+    O --> Q["Apply Finish"]
+    P --> Q
+    Q --> R[/"Completed Steampunk Leather Hat"/]
+    R --> S(["End"])

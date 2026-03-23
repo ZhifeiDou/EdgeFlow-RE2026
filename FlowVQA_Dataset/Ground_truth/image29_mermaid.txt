@@ -1,0 +1,26 @@
+flowchart TD
+    A(["Start: Identifying Allergy-Friendly Snacks and Ingredients"]) --> B["Select a variety of raw vegetables"]
+    B --> C{"Is there a dairy allergy?"}
+    C -->|Yes| D["Prepare a dairy-free dip"]
+    C -->|No| E["Dairy-based dips can be considered"]
+    D --> F["Raw vegetables with a suitable dip for guests with allergies"]
+    F --> G["Whisk together lemon juice, olive oil, and seasonings for a simple dressing"]
+    G --> H["Allergy-friendly green salad with homemade dressing"]
+    H --> I{"Is there a wheat allergy?"}
+    I -->|Yes| J["Prepare homemade gravy without wheat-containing ingredients"]
+    I -->|No| K["Regular turkey broth or dressing can be used"]
+    J --> L["Allergy-safe gravy suitable for individuals with wheat allergies"]
+    L --> M{"Is there a dairy allergy when preparing mashed potatoes?"}
+    M -->|Yes| N["Prepare dairy-free mashed potatoes using alternatives"]
+    M -->|No| O["Traditional heavy cream and butter can be used in mashed potatoes"]
+    N --> P["Dairy-free mashed potatoes for individuals with dairy allergies"]
+    P --> Q{"Is there a concern for allergens in pre-seasoned stuffing?"}
+    Q -->|Yes| R["Check the package for allergens or make from scratch"]
+    Q -->|No| S["Pre-seasoned stuffing can be used as is"]
+    R --> T{"Is there a need for a dessert free of wheat, eggs, dairy, or nuts?"}
+    S --> T
+    T -->|Yes| U["Prepare or select a suitable dessert"]
+    T -->|No| V["Store-made or traditional desserts can be considered"]
+    U --> W["Allergy-friendly dessert options for guests with food allergies"]
+    V --> W
+    W --> X(["End: Final Presentation of Allergy-Friendly Meal Options"])

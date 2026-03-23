@@ -1,0 +1,11 @@
+flowchart TD
+    A(["Start"]) --> B[/"Input iterable and size n"/]
+    B --> C["Convert iterable to iterator"]
+    C --> D{"Infinite Loop"}
+    D -->|"Loop Begins"| E["Use islice to slice next n elements"]
+    E --> F["Convert slice to tuple"]
+    F --> G{"Is chunk empty?"}
+    G -->|"Yes"| H[/"Return from function"/]
+    H --> I(["End"])
+    G -->|"No"| J[/"Yield the non-empty chunk"/]
+    J --> D

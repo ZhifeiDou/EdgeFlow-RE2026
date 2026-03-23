@@ -1,0 +1,25 @@
+flowchart TD
+    A(["Start"]) --> B["Gather materials"]
+    B --> C["Prepare isopropyl alcohol blend"]
+    C --> D["Mix distilled water with isopropyl alcohol"]
+    D --> E["Fill the torch with the alcohol blend"]
+    E --> F["Create a homemade wick"]
+    F --> G["Cut a small section of cheese cloth"]
+    G --> H["Roll the section tightly"]
+    H --> I["Feed the rolled cheese cloth through the wick hole of the torch"]
+    I --> J["Cut the cheese cloth to the appropriate length for the torch"]
+    J --> K["Allow the alcohol to absorb up the cheese cloth"]
+    K --> L{"/Is citronella or other repellent grass available?/"}
+    L -->|"Yes"| M["Extract citronella oil"]
+    L -->|"No"| Q{"Is isopropyl alcohol unavailable?"}
+    M --> N["Cut sprigs of repellent grass"]
+    N --> O["Place in a glass jar and cover with isopropyl alcohol"]
+    O --> P["Seal and let sit for three days, then strain"]
+    P --> Q{"Is isopropyl alcohol unavailable?"}
+    Q -->|"Yes"| R["Use cooking oil as an alternative fuel"]
+    Q -->|"No"| Z(["End"])
+    R --> S["Pour cooking oil into the torch"]
+    S --> T["Place the wick into the oil"]
+    T --> U["Turn the torch upside down to soak the wick"]
+    U --> V["Wait until the oil wicks up"]
+    V --> Z(["End"])

@@ -1,0 +1,30 @@
+flowchart TD
+    A(["Start"]) --> B["Define function func(nums, k)"]
+    B --> C1[/"Import collections"/]
+    C1 --> D["Initialize defaultdict 'd' for counting integer occurrences"]
+    D --> E["For each 'row' in 'nums'"]
+    E --> F["For each 'i' in 'row'"]
+    F --> G["Increment count of 'i' in 'd'"]
+    G --> H["Initialize list 'temp'"]
+    H --> I1[/"Import heapq"/]
+    I1 --> J["For each (key, v) in 'd.items()'"]
+    J --> K{"Is len(temp) < k?"}
+    K -->|Yes| L["Append (v, key) to 'temp'"]
+    L --> M{"Is len(temp) == k?"}
+    M -->|Yes| N["Heapify 'temp'"]
+    N --> J
+    M -->|No| O[/"Continue"/]
+    O --> J
+    K -->|No| P{"Is v > temp[0][0]?"}
+    P -->|Yes| Q["Heappop from 'temp'"]
+    Q --> R["Heappush (v, key) into 'temp'"]
+    R --> J
+    P -->|No| S[/"Continue"/]
+    S --> J
+    J --> T["Initialize list 'result'"]
+    T --> U{"Is 'temp' not empty?"}
+    U -->|Yes| V["Heappop (v, key) from 'temp'"]
+    V --> W["Append 'key' to 'result'"]
+    W --> U
+    U -->|No| X[/"Return 'result'"/]
+    X --> Y(["End"])

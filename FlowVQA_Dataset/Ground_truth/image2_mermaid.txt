@@ -1,0 +1,20 @@
+flowchart TD
+    A(["Start Preparation"]) --> B["Cut French bread into slices"]
+    B --> C["Arrange slices on tray"]
+    C --> D["Sprinkle olive oil over bread"]
+    D --> E["Place tray under grill"]
+    E --> F{"Bread toasted on one side?"}
+    F -->|Yes| G["Flip bread slices"]
+    F -->|No| E
+    G --> H["Prepare garlic butter mix"]
+    H --> I["Apply garlic butter to bread"]
+    I --> J["Return tray to grill"]
+    J --> K{"Adding cheese?"}
+    K -->|No| L[/"Garlic bread ready"/]
+    K -->|Yes| M["Sprinkle grated cheese on bread"]
+    M --> N["Place tray under grill"]
+    N --> O{"Cheese melted and bubbling?"}
+    O -->|No| N
+    O -->|Yes| P[/"Garlic Bread with Cheese ready"/]
+    L --> Q(["End - Serve and enjoy"])
+    P --> Q

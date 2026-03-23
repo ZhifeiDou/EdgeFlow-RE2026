@@ -1,0 +1,22 @@
+flowchart TD
+    A(["Start"]) --> B[/"Gather Materials"/]
+    B --> C["Grind Coffee Beans"]
+    C --> D["Fill Tea Bags"]
+    D --> E{"Add Sugar?"}
+    E -->|Yes| F["Add Sugar to the Tea Bag"]
+    E -->|No| G["Proceed without Sugar"]
+    F --> H{"Add Non-Dairy Creamer?"}
+    G --> H
+    H -->|Yes| I["Add Non-Dairy Creamer to the Tea Bag"]
+    H -->|No| J["Proceed without Non-Dairy Creamer"]
+    I --> K["Seal Tea Bags"]
+    J --> K
+    K --> L["Steep Coffee"]
+    L --> M{"Desired Potency Reached?"}
+    M -->|Yes| N[/"Remove Coffee Bag"/]
+    M -->|No| L
+    N --> O["Enjoy a Cup of Freshly Brewed Coffee"]
+    O --> P{"Make Extras?"}
+    P -->|Yes| Q["Store in Air-Tight Container"]
+    P -->|No| R(["End"])
+    Q --> R

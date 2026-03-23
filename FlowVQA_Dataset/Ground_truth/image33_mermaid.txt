@@ -1,0 +1,17 @@
+flowchart TD
+    A(["Start"]) --> B[/"Gather Materials"/]
+    B --> C["Prepare the Stuffed Animal"]
+    C --> D["Insert the Jar"]
+    D --> E["Attach Fabric to Jar"]
+    E --> F{"Is the lid attached?"}
+    F -->|"Yes"| G["Secure the Jar"]
+    F -->|"No"| H["Attach the Lid"]
+    H --> G
+    G --> I["Attach the Head to the Lid"]
+    I --> J["Finalize the Stashimal"]
+    J --> K[/"Complete Stashimal"/]
+    K --> L{"Create night light feature?"}
+    L -->|"Yes"| M["Insert Glow Stick"]
+    L -->|"No"| N
+    M --> O(["End"])
+    N --> O

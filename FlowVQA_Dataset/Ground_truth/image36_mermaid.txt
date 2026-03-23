@@ -1,0 +1,16 @@
+flowchart TD
+    A(["Start"]) --> B["Check if units measure the same type of quantity"]
+    B --> C{"Are Units Compatible?"}
+    C -->|Yes| D["Find out the conversion factor"]
+    C -->|No| I(["End - Conversion cannot be done"])
+    D --> E["Round the conversion factor"]
+    E --> F["Write the conversion factor as a fraction"]
+    F --> G["Take the original measurement"]
+    G --> H["Write out the multiplication problem including units"]
+    H --> J["Multiply the original measurement by the conversion fraction"]
+    J --> K["Ensure all units are included in each step"]
+    K --> L["Cancel out units in numerator and denominator"]
+    L --> M{"Did Units Cancel Correctly?"}
+    M -->|Yes| N[/"Result of the conversion with correct units"/]
+    N --> O(["End - The conversion is complete"])
+    M -->|No| F

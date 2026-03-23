@@ -1,0 +1,30 @@
+flowchart TD
+    A(["Start: Identify Potential Danger"]) --> B["Ensure Personal Safety"]
+    B --> C{"Accompanied by Someone?"}
+    C -->|Yes| D["Proceed with Companion"]
+    C -->|No| E["Ensure Others are Around"]
+    E --> F{"Approached Strangely?"}
+    F -->|Yes| G["Engage in Self-defense"]
+    F -->|No| H["Stay Vigilant"]
+    G --> I["Scream Loudly for Help"]
+    I --> J["Scream 'FIRE!'"]
+    J --> K["Defend Using Physical Means"]
+    K --> L(["End: Seek Help Until Safe"])
+
+    M(["Start: Recognize Fallen Off Ship"]) --> N["Understand Life & Death Situation"]
+    N --> O["Scream for Help"]
+    O --> P{"Panicking?"}
+    P -->|Yes| Q["Focus on Not Panicking"]
+    P -->|No| R["Use Free-stroke Swimming"]
+    R --> S["Grab Floating Objects"]
+    S --> T["Wave and Signal for Attention"]
+    T --> U{"Branch or Ship Within Reach?"}
+    U -->|Yes| V["Hang Onto Branch or Signal Ship"]
+    U -->|No| W{"Shore or Island Within Reach?"}
+    W -->|Yes| X["Reach Shore and Prepare for Survival"]
+    W -->|No| Y["Once Safe, Report Incident"]
+    Y --> Z{"Stranded 3-4 Hours Without Rescue?"}
+    Z -->|Yes| AA["Mentally Prepare for the Worst"]
+    Z -->|No| AB["Continue Survival Efforts"]
+    AA --> AC(["End: Continue Until Rescue or No Longer Possible"])
+    AB --> AC

@@ -1,0 +1,36 @@
+flowchart TD
+    A(["Start"]) -->|Input: Broken NES and tools| B["Open NES Case"]
+    B --> C["Remove Screws from NES Case"]
+    C --> D["Lift Out Internal Parts"]
+    D --> E["Unplug Wires from Motherboard"]
+    E --> F{"Controller Port Wires Easy to Remove?"}
+    F -->|"Yes"| G["Pop Out Wires"]
+    F -->|"No"| H["Cut Wires and File Ends"]
+    G --> I["Unscrew and Remove Circuit Board"]
+    H --> I
+    I --> J["Store Removed Parts"]
+    J --> K["Remove Internal Plastic Posts with Rotary Tool"]
+    K --> L["Sand Down Nubs"]
+    L --> M{"Are There Larger Posts for Stability?"}
+    M -->|"Yes"| N["Leave Larger Posts Intact"]
+    M -->|"No"| O["Proceed to Add Hinges"]
+    N --> O["Proceed to Add Hinges"]
+    O --> P["Mark Locations for Hinge Holes"]
+    P --> Q["Drill Holes for Hinges"]
+    Q --> R{"Hinges Placed on Side for Latch?"}
+    R -->|"Yes"| S["Screw in Hinges"]
+    R -->|"No"| T["Consider Alternative Hinge Placement"]
+    S --> U["Test Case Opening and Closing"]
+    T --> U
+    U --> V{"Case Opens and Closes Smoothly?"}
+    V -->|"Yes"| W["Glue Power and Reset Buttons"]
+    V -->|"No"| X["Reposition Hinges"]
+    X --> U
+    W --> Y{"Does Glue Dry Clear?"}
+    Y -->|"Yes"| Z[/"Finished NES Lunchbox"/]
+    Y -->|"No"| AA["Repaint with Gray Model Paint"]
+    AA --> Z
+    Z --> AB["Place Lunch Items Inside"]
+    AB --> AC["Optional: Sandwich Through Cartridge Slot"]
+    AC --> AD["Store in Office Refrigerator"]
+    AD --> AE(["End"])

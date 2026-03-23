@@ -1,0 +1,9 @@
+flowchart TD
+    A(["Start"]) --> B[/"Input the original dictionary `d`."/]
+    B --> C["Initialize an empty dictionary `r`"]
+    C --> D{"For each key `k` in `d`?"}
+    D -->|"Yes"| E["Retrieve value for `k`"]
+    E --> F["Assign `k` as a new value to the retrieved value in `r`"]
+    F --> D
+    D -->|"No"| G[/"Output the new dictionary `r`"/]
+    G --> H(["End"])

@@ -1,0 +1,10 @@
+flowchart TD
+    A(["Start"]) --> B[/"Enter a string s"/]
+    B --> C["Split the string into words"]
+    C --> D{"For each word in list"}
+    D -->|"Yes"| E{"Is word length odd?"}
+    E -->|"Yes"| F[/"Return True"/]
+    E -->|"No"| D
+    D -->|"No"| G[/"Return False"/]
+    F --> H(["End"])
+    G --> H

@@ -1,0 +1,10 @@
+flowchart TD
+    A(["Start"]) --> B[/"Accept `data` as input"/]
+    B --> C{"Start a loop over each key-value pair in `data`"}
+    C --> D{"Does `self` have an attribute with the name equal to the current `item` key?"}
+    D -->|"Yes"| E["Use `setattr` to set the attribute on `self`"]
+    E --> F{"End of loop?"}
+    F -->|"No"| C
+    D -->|"No"| G[/"Skip setting the attribute for this `item`"/]
+    G --> F
+    F -->|"Yes"| H(["End"])

@@ -1,0 +1,31 @@
+flowchart TD
+    A(["Start"]) --> B["Gather all ingredients"]
+    B --> C["Detach basil leaves"]
+    C --> D["Roughly chop garlic"]
+    D --> E["Place basil, parmesan, garlic in food processor"]
+    E --> F{"Initial olive oil 1/4 cup?"}
+    F -->|Yes| G["Input 1/4 cup olive oil"]
+    F -->|No| H["Check pesto consistency"]
+    G --> H
+    H --> I{"Consistency too thick?"}
+    I -->|Yes| J["Add more olive oil up to 1/2 cup"]
+    I -->|No| K["Scrape sides with spatula"]
+    J --> K
+    K --> L["Add salt, pepper, lemon juice"]
+    L --> M["Pulse to combine seasoning"]
+    M --> N{"Pesto taste as desired?"}
+    N -->|Yes| O["Pesto is ready"]
+    N -->|No| P["Adjust taste with salt, pepper, lemon"]
+    P --> N
+    O --> Q{"Pesto for two 16 oz pasta?"}
+    Q -->|Yes| R["Use 1/2 cup pesto per pasta package"]
+    Q -->|No| S{"Any leftover pesto?"}
+    R --> S
+    S -->|Yes| T{"Will pesto be frozen?"}
+    S -->|No| Z(["End"])
+    T -->|Yes| U{"Freeze in one lump?"}
+    T -->|No| Z
+    U -->|Yes| V["Freeze pesto in one container"]
+    U -->|No| W["Freeze pesto in ice cube tray"]
+    V --> Z
+    W --> Z

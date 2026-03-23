@@ -1,0 +1,52 @@
+flowchart TD
+    A(["Start Installation"]) --> B[/"Prepare the Pulley for Installation"/]
+    B --> C["Position the pulley onto the crankshaft"]
+    C --> D["Ensure all tools and parts are ready"]
+
+    D --> E[/"Attach and Secure the Pulley"/]
+    E --> F["Place washer/disk and big bolt"]
+    F --> G["Hold pulley with bar"]
+    G --> H["Tighten the big bolt"]
+    H --> I[/"Pulley is attached and secured"/]
+
+    I --> J[/"Torque the Pulley Bolt"/]
+    J --> K["Tighten the pulley bolt with torque wrench"]
+    K --> L[/"Pulley bolt is tightened to spec"/]
+
+    L --> M[/"Secure the Motor Mount Bracket"/]
+    M --> N{"Motor mount bracket aligned?"}
+    N -->|"Yes"| O["Tighten the bracket"]
+    N -->|"No"| P["Adjust the bracket"]
+    P --> O
+    O --> Q[/"Motor mount bracket is secured"/]
+
+    Q --> R[/"Reinstall the Motor Mount Parts"/]
+    R --> S["Reinstall remaining motor mount parts"]
+    S --> T{"All parts reinstalled and tightened?"}
+    T -->|"Yes"| U["Remove the jacks"]
+    T -->|"No"| S
+    U --> V[/"Motor mount parts are reinstalled and secured"/]
+
+    V --> W[/"Adjust Hoses and Wiring"/]
+    W --> X["Work the big mount bracket into place"]
+    X --> Y["Move wiring and hoses to avoid damage"]
+    Y --> Z{"Mount bracket in place without damage?"}
+    Z -->|"Yes"| AA["Proceed to refill coolant"]
+    Z -->|"No"| X
+    AA --> BB[/"Mount bracket is in place"/]
+
+    BB --> CC[/"Refill the Coolant System"/]
+    CC --> DD["Refill coolant system and overflow tank"]
+    DD --> EE["Bounce the car to distribute coolant"]
+    EE --> FF["Add coolant as needed after bouncing"]
+    FF --> GG[/"Coolant system and overflow tank are refilled"/]
+
+    GG --> HH[/"Check for Coolant Leaks"/]
+    HH --> II["Inspect coolant system for leaks"]
+    II --> JJ{"Any coolant leaks?"}
+    JJ -->|"Yes"| KK["Repair leaks before proceeding"]
+    JJ -->|"No"| LL["Start the engine"]
+    KK --> II
+    LL --> MM[/"Coolant system checked for no leaks"/]
+
+    MM --> NN(["End Installation"])

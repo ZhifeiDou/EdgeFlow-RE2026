@@ -1,0 +1,53 @@
+flowchart TD
+    A(["Start Movie Creation Process"]) --> B["Decide on Gun Usage"]
+    B --> C{"Guns in Movie?"}
+    C -->|"Yes"| D["Acquire Battery Airsoft Guns"]
+    D --> E["Charge Airsoft Guns"]
+    E --> F1["Proceed to Script Review"]
+    C -->|"No"| F1["Proceed to Script Review"]
+
+    F1 --> G["Review Initial Script"]
+    G --> H["Send Script for Feedback"]
+    H --> I["Gather Feedback"]
+    I --> J{"Feedback Suggests Changes?"}
+    J -->|"Yes"| K["Make Script Changes"]
+    K --> L1["Discuss Script with Actors"]
+    J -->|"No"| L1["Discuss Script with Actors"]
+
+    L1 --> M["Collaborate with Actors for Changes"]
+    M --> N{"Modify Script After Collaboration?"}
+    N -->|"Yes"| O["Edit Script as Necessary"]
+    O --> P1["Obtain Fake Blood for Effects"]
+    N -->|"No"| P1["Obtain Fake Blood for Effects"]
+
+    P1 --> Q["Apply Fake Blood in Scenes"]
+    Q --> R["Prepare for Costume Damage"]
+    R --> S1["Ensure Actor Safety Protocols"]
+    
+    S1 --> T["Check Scene Appropriateness"]
+    T --> U{"Scenes Inappropriate or Dangerous?"}
+    U -->|"Yes"| V["Draft Safety Contract"]
+    V --> W["Actors Sign Safety Contract"]
+    W --> X1["Ensure Age-Appropriate Behavior"]
+    U -->|"No"| X1["Ensure Age-Appropriate Behavior"]
+
+    X1 --> Y["Direct Age-Appropriate Acting"]
+    Y --> Z{"Actors Acting Age-Appropriately?"}
+    Z -->|"Yes"| Z1["Decide on External Music Use"]
+    Z -->|"No"| Y
+
+    Z1 --> AA["Choose External Music"]
+    AA --> AB{"External Music Used?"}
+    AB -->|"Yes"| AC["Contact Creators for Permission"]
+    AC --> AD{"Copyrighted Music & No Permission?"}
+    AD -->|"Yes"| AE["Find Alternative Music"]
+    AE --> AF1["Prepare Movie for Audience"]
+    AD -->|"No"| AF1["Prepare Movie for Audience"]
+    AB -->|"No"| AF1["Prepare Movie for Audience"]
+
+    AF1 --> AG["Check for Copyrighted Audio"]
+    AG --> AH{"Does Movie Contain Copyrighted Audio?"}
+    AH -->|"Yes"| AI["Avoid Selling or Distributing"]
+    AI --> AJ(["End Movie Creation Process"])
+    AH -->|"No"| AK["Distribute Movie Freely"]
+    AK --> AJ(["End Movie Creation Process"])

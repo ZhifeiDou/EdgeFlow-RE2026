@@ -1,0 +1,10 @@
+flowchart TD
+    A(["Start"]) --> B[/"Accept a traceback object `tb` as input."/]
+    B --> C["Initialize an empty list called `frames`."]
+    C --> D["Add the initial frame from `tb` to the `frames` list."]
+    D --> E{"Check if `tb.tb_next` exists"}
+    E -->|"Yes"| F["Assign `tb.tb_next` to `tb`."]
+    F --> G["Append `tb.tb_frame` to the `frames` list."]
+    G --> E
+    E -->|"No"| H[/"Return the `frames` list"/]
+    H --> I(["End"])

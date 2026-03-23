@@ -1,0 +1,31 @@
+flowchart TD
+    A(["Start Creating Bird-Proof Squirrel Feeder"]) --> B[/"Gather Materials"/]
+    B --> C["Trace Hole Pattern on Wood"]
+    C --> D["Cut Hole for Jar Bottom"]
+    D --> E["File Edges of Hole"]
+    E --> F["Cut 6-inch Template"]
+    F --> G["Trace Next Hole"]
+    G --> H["Cut Hole for Jar Top"]
+    H --> I["Cut 6-inch Base Piece"]
+    I --> J["Cut 11-inch Back Piece"]
+    J --> K["Glue Base to Large Hole Piece"]
+    K --> L["Pre-drill Nail Holes in Back Piece"]
+    L --> M{"Nail Holes for Bottom?"}
+    M -->|Yes| N["Nails into Solid Base"]
+    M -->|No| O["Nails into Large Hole Piece"]
+    N --> P["Glue and Nail Base to Back"]
+    O --> P
+    P --> Q["Attach Hinges to Top Piece"]
+    Q --> R["Rest Top on Jar & Attach Hinges to Back"]
+    R --> S[/"Completed Feeder"/]
+    S --> T{"Treat Feeder for Weather?"}
+    T -->|Yes| U["Stain, Varnish, or Paint"]
+    T -->|No| V["Leave as is"]
+    U --> W{"Feeder Placement"}
+    V --> W
+    W -->|Ground| X["Place on Ground"]
+    W -->|Mounted| Y["Mount on Fencepost"]
+    X --> Z[/"Add Food"/]
+    Y --> Z
+    Z --> A1[/"Observe First Squirrel"/]
+    A1 --> B1(["End Enjoy Watching Squirrels"])

@@ -1,0 +1,25 @@
+flowchart TD
+    A(["Start"]) --> B[/"Gather Ingredients"/]
+    B --> C[/"Gather Equipment"/]
+    C --> D["Cut Chillies Roughly"]
+    D --> E{"Remove Seeds?"}
+    E -->|Yes| F["Remove Seeds"]
+    F --> G["Peel and Chop Garlic"]
+    E -->|No| G
+    G --> H["Measure Bottle Capacity"]
+    H --> I["Combine Chillies, Garlic, Vinegar in Jug"]
+    I --> J["Transfer to Saucepan"]
+    J --> K[/"Add Salt and Sugar"/]
+    K --> L["Boil and Simmer Mixture"]
+    L --> M["Blend Mixture"]
+    M --> N["Reheat Blended Mixture"]
+    N --> O[/"Pour Sauce into Bottle"/]
+    O --> P{"Make Cooler Sauce?"}
+    P -->|Yes| Q["Use Fewer Chillies"]
+    Q --> R["Thicken with Cornflour Solution"]
+    R --> S{"Is Sauce Too Thick?"}
+    S -->|Yes| T["Adjust Cornflour Amount"]
+    S -->|No| U["Consider Optional Ingredients"]
+    P -->|No| U
+    T --> U
+    U --> V(["End"])

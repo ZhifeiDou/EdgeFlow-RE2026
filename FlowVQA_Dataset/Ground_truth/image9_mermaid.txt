@@ -1,0 +1,31 @@
+flowchart TD
+    A(["Start"]) --> B["Prepare Cleaning Tools"]
+    B -->|Gather supplies| C["Assess Shoe Condition"]
+    C -->|Are shoes dirty?| C1{"Yes"}
+    C1 --> D["Create Soap Solution"]
+    C -->|Are shoes clean?| C2(["End"])
+    D -->|Dip toothbrush| E["Scrub the Shoe"]
+    E --> F["Wipe Shoes with Damp Cloth"]
+    F -->|Dampen cloth| G["Wipe the Dirt Off"]
+    G --> H{"Are shoes made of leather?"}
+    H -->|Yes| I["Use Windex on Paper Towel"]
+    H -->|No| J["Clean With Mr. Clean Magic Eraser"]
+    I -->|Spray Windex| K["Rub the Shoe"]
+    K --> L{"Upcoming audition or performance?"}
+    L -->|Yes| M["Clean leather only when necessary"]
+    L -->|No| N["Avoid unnecessary cleaning"]
+    M --> O["Dry Shoes Properly"]
+    N --> O
+    J -->|Is cleaning necessary?| J1{"Yes"}
+    J1 --> P["Scrub with Magic Eraser"]
+    J -->|Is cleaning not necessary?| J2(["End"])
+    P --> Q{"Frequently used for performances?"}
+    Q -->|Yes| R["Limit use of Magic Eraser"]
+    Q -->|No| S["Use as needed"]
+    R --> O
+    S --> O
+    O -->|Place in indirect warmth| T{"Is the heat source indirect?"}
+    T -->|Yes| U["Place shoes to dry"]
+    T -->|No| V["Find another spot"]
+    U --> W(["End"])
+    V --> W

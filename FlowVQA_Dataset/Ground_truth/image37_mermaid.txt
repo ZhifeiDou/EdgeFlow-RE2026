@@ -1,0 +1,48 @@
+flowchart TD
+    A(["Start"]) --> B["Assess External Threats"]
+    B --> C{"Potential predators present?"}
+    C -->|"Yes"| D["Protect rabbit from predators"]
+    D --> E["Evaluate Plant Safety"]
+    C -->|"No"| E["Evaluate Plant Safety"]
+    E --> F{"All plants safe?"}
+    F -->|"Yes"| G["Plants are safe"]
+    G --> H["Handle with Care"]
+    F -->|"No"| I["Remove hazardous plants"]
+    I --> H["Handle with Care"]
+    H --> J{"Rabbit handled carefully?"}
+    J -->|"Yes"| K["Reduced risk of injury"]
+    K --> L["Monitor Social Interactions"]
+    J -->|"No"| M["Educate on proper handling"]
+    M --> L["Monitor Social Interactions"]
+    L --> N{"Male rabbits fighting?"}
+    N -->|"Yes"| O["Separate to prevent harm"]
+    O --> P["Provide Appropriate Diet"]
+    N -->|"No"| P["Provide Appropriate Diet"]
+    P --> Q{"Rabbit a baby?"}
+    Q -->|"Yes"| R["Provide Alfalfa hay"]
+    R --> S["Maintain Clean Living Space"]
+    Q -->|"No"| T["Provide Timothy Hay"]
+    T --> S["Maintain Clean Living Space"]
+    S --> U{"Cage clean and odor-free?"}
+    U -->|"Yes"| V["Maintain cleanliness"]
+    V --> W["Regular Veterinary Care"]
+    U -->|"No"| X["Clean the cage"]
+    X --> W["Regular Veterinary Care"]
+    W --> Y{"Regular vet check-ups?"}
+    Y -->|"Yes"| Z["Early detection of health issues"]
+    Z --> AA["Avoid Toxic Foods"]
+    Y -->|"No"| AB["Schedule vet appointment"]
+    AB --> AA["Avoid Toxic Foods"]
+    AA --> AC{"Rabbit access to raw potatoes?"}
+    AC -->|"Yes"| AD["Remove potatoes"]
+    AD --> AE["Supervise Pet Interactions"]
+    AC -->|"No"| AE["Supervise Pet Interactions"]
+    AE --> AF{"Other pets could harm rabbit?"}
+    AF -->|"Yes"| AG["Supervise or separate pets"]
+    AG --> AH["Monitor Temperature Conditions"]
+    AF -->|"No"| AH["Monitor Temperature Conditions"]
+    AH --> AI{"Ears too hot or cold?"}
+    AI -->|"Yes"| AJ["Regulate temperature"]
+    AJ --> AK(["End"])
+    AI -->|"No"| AL["Monitor comfort level"]
+    AL --> AK(["End"])
