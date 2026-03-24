@@ -31,8 +31,8 @@ Our study focuses on the "Logic Path Identification" accuracy, comparing baselin
 
 | Model Strategy | Accuracy (Baseline) | Accuracy (Edge-Map Aug) |
 | :--- | :--- | :--- |
-| **Qwen3 (7B)** | 74.2% | **81.5%** |
-| **Qwen3.5 (7B)** | 79.8% | **86.3%** |
+| **Qwen3 (7B)** |x% | **x%** |
+| **Qwen3.5 (7B)** | x% | **x%** |
 
 ---
 
@@ -48,7 +48,7 @@ This work is part of an industrial RE study submitted to the **IEEE Requirements
 
 **Authors:**
 * **Zhifei Dou**
-* **Shabnam Hassaniahari**
+* **Shabnam Hassani**
 * **Ou Wei**
 
 If you find this repository useful for your research, please cite:
