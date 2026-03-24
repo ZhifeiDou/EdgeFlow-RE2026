@@ -2,7 +2,6 @@
 ### An Industrial Requirements Engineering (RE) Study for RE 2026
 
 [![Submission](https://img.shields.io/badge/RE2026-Industry--Innovation-blue)](https://conf.researchr.org/home/re-2026)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## 📌 Overview
 In industrial Requirements Engineering (RE), flowcharts are vital for documenting requirements and system behaviors. However, automated verification of these diagrams remains a challenge for standard Vision Language Models (VLMs).
