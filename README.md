@@ -48,7 +48,8 @@ This work is part of an industrial RE study submitted to the **IEEE Requirements
 
 **Authors:**
 * **Zhifei Dou**
-* **Shabnam Hassaniahari** (Huawei Technologies Canada / University of Ottawa)
+* **Shabnam Hassaniahari**
+* **Ou Wei**
 
 If you find this repository useful for your research, please cite:
 
