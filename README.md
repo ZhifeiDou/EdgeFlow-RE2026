@@ -1,4 +1,4 @@
-# Replication Package: VLM-based Flowchart Processing with Edge-Map Augmentation
+# Dataset and result: VLM-based Flowchart Processing with Edge-Map Augmentation
 
 This repository contains the replication package for the paper:
 
@@ -10,8 +10,8 @@ This repository contains the replication package for the paper:
 
 - `FlowVQA_Dataset/Images/` — 40 sampled FlowVQA flowchart images used for cross-dataset evaluation (RQ3)
 - `FlowVQA_Dataset/Ground_truth/` — Ground-truth Mermaid code for each image
-- `FlowVQA_Result_Qwen3/` — Per-run evaluation results for Qwen3-VL-32B-Instruct (5 runs, baseline + EdgeFlow)
-- `FlowVQA_Result_Qwen3.5/` — Per-run evaluation results for Qwen3.5-35B-A3B (5 runs, baseline + EdgeFlow)
+- `FlowVQA_Result_Qwen3/` — Per-run evaluation results for Qwen3-VL-32B-Instruct (5 runs, baseline + EdgeFlow) on sampled FlowVQA
+- `FlowVQA_Result_Qwen3.5/` — Per-run evaluation results for Qwen3.5-35B-A3B (5 runs, baseline + EdgeFlow) on sampled FlowVQA
 
 Each `.xlsx` file contains one experimental run. Rows with batch names prefixed `batch_baseline_run_` are the baseline condition; rows prefixed `batch_canny_run_` are the EdgeFlow condition.
 
