@@ -17,13 +17,4 @@ Each `.xlsx` file contains one experimental run. Rows with batch names prefixed 
 
 IndusReqFlow results (RQ1, RQ2) are not included due to the proprietary nature of Huawei's internal requirements documents.
 
-## Citation
 
-```bibtex
-@inproceedings{dou2026edgeflow,
-  title={{VLM}-based Flowchart Processing with Edge-Map Augmentation: An Industrial {RE} Study},
-  author={Dou, Zhifei and Hassani, Shabnam and Wei, Ou},
-  booktitle={Proceedings of the IEEE International Requirements Engineering Conference (RE) -- Industry Innovation Track},
-  year={2026}
-}
-```
