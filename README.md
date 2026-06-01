@@ -2,9 +2,11 @@
 
 This repository contains the replication package for the paper:
 
-> **VLM-based Flowchart Processing with Edge-Map Augmentation: An Industrial RE Study**
+> **EdgeFlow: Edge-Map Augmented VLM-Based
+Flowchart Processing for Industrial Requirements
+Engineering**
 > Zhifei Dou, Shabnam Hassani, Ou Wei
-> IEEE Requirements Engineering 2026 — Industry Innovation Track
+> Submitted to AIRE Workshop
 
 ## Contents
 
